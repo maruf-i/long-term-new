@@ -24,6 +24,7 @@ body, h1, h2, h3, h4, h5, h6, p,  {
 
 p, a {
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18x;
 }
 
 @-webkit-keyframes fontfix{
@@ -118,8 +119,7 @@ nav ul li img:first-child {
 
 .page-layout {
 	background-color: #f5f5f5;
-	height: auto;
-	
+	padding-bottom: 30px;
 }
 
 
@@ -149,12 +149,12 @@ nav ul li img:first-child {
 }
 
 .main-content p {
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
   text-indent: 5px;
   margin: 0;
   padding: 10px;
-  line-height: 20px;
+  line-height: 25px;
   
 
 }
@@ -187,9 +187,25 @@ nav ul li img:first-child {
 }
 
 .services p {
-	font-size: 15px;
+	font-size: 16px;
 	margin-top: 10px;
 	padding: 5px 0;
+	text-align: justify; 
+	margin-bottom: 30px;
+}
+
+h1.num-lg {
+	padding: 0;
+	margin: 30px 0 30px 0;
+	color: #ff7a73;
+	
+}
+
+p.text-lg {
+	font-size: 16px;
+	margin: 30px 0 30px 0;
+	border-bottom: 1px solid #aaa;
+	letter-spacing: 1px;
 }
 
 .center-block .img-responsive {
@@ -397,6 +413,11 @@ hr {
 
   .center-heading h1 {
    		font-size: 110px;
+  }
+  
+  .main-content p {
+  	text-align: left;
+  	
   }
   
   .cp-right {
