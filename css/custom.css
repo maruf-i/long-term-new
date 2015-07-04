@@ -1,0 +1,431 @@
+
+/* Google Web Fonts Import */
+
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+
+/* Google Web Fonts Hack */
+
+body, h1, h2, h3, h4, h5, h6, p,  {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+
+
+}
+
+ h1, h2, h3, h4, h5, h6 {
+
+	font-family: 'Arvo', serif;
+	margin: 20px 10px 20px 10px;
+	padding: 20px 10px 20px 10px;
+}
+
+p, a {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+@-webkit-keyframes fontfix{
+	from{ 	opacity: 1; }
+	50%{	opacity: 0.8; }
+	to{	opacity: 1; }
+}
+
+/* --------------------------*/
+
+
+/* Main CSS Declaration */
+
+
+
+
+.navbar-default {
+  min-width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #959595;
+  padding: 10px;
+}
+
+.navbar-default .navbar-nav > li >a {
+	background-color: none;
+}
+
+.navbar-default .navbar-nav > li >a:hover {
+  color: #ff7a73;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #ff7a73;
+}
+
+.navbar-default .navbar-nav > li  {
+	background-color: none;
+}
+
+nav ul li {
+
+	padding: 15px 15px;
+
+}
+
+nav ul li a {
+
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+nav ul li img:first-child {
+	margin-right: 60px;
+}
+
+
+.jumbotron{
+	min-height: 1000px;
+	height: auto;
+	background-image: url('../images/london11.jpg') no-repeat center center fixed;
+	background-size: cover;
+	margin-top: -20px;
+
+}
+
+
+
+.jumbotron img {
+
+	padding: 40px 0 0 0;
+}
+
+.center-heading h1 {
+
+	color: #f1f1f1;
+	font-size: 110px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 70px 0 70px  0;
+	font-family: 'Advent Pro', sans-serif;
+	font-weight: 200;
+	letter-spacing: 3px;
+	opacity: 10;
+	z-index: 2;
+}
+
+.page-layout {
+	background-color: #f5f5f5;
+	height: auto;
+	
+}
+
+
+.page-header h1 {
+  margin: 10px;
+  padding: 5px 5px 10px 5px;
+  letter-spacing: 2px;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: #333222;
+ 	
+}
+
+.main-content {
+  min-height: 700px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.main-content h4 {
+  	margin-top: 30px;
+  	padding: 0;
+	color: #ff7a73;
+
+}
+
+.main-content p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-indent: 5px;
+  margin: 0;
+  padding: 10px;
+  line-height: 20px;
+  
+
+}
+
+.services {
+	height: auto;
+	padding: 10px 10px 10px 0;
+	text-align: center;
+	text-indent: 0;
+	margin: 0;
+}
+
+.services .row img {
+	margin: 0 0 35px 0;
+	padding: 0;
+}
+
+.services i {
+	margin: 5px auto 15px auto;
+	color: #ff7a73; 
+}
+
+.services h4 {
+	font-size: 20px;
+	margin: 0;
+	padding:5px 0;
+	
+
+	
+}
+
+.services p {
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 5px 0;
+}
+
+.center-block .img-responsive {
+
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+
+
+
+/*.border-test {
+	border: 1px solid #111;
+
+}*/
+
+.nav , .navbar-bottom  ul li a {
+	color: #000000;
+	opacity: 0.6;
+	
+}
+
+.nav , .navbar-bottom  ul li a:hover {
+	color: #000000;
+	background-color: none !important;
+	opacity: 10;
+	
+}
+
+footer ul li {
+	padding:0;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+
+}
+
+
+hr {
+	margin-top: -30px;	
+	
+}
+
+.cp-right {
+	width: 500px;
+	color: #656565;
+	text-transform: uppercase;
+	margin: 0 auto;
+	border-top: 1px solid #333;
+	
+}
+.cp-right p {
+	letter-spacing: 1px;
+	font-size: 13px;
+}
+
+.heart {
+	color: red;
+}
+
+
+/*--Contact Page layout Section--*/
+
+.contact {
+
+	background: #f4f4f4;
+	margin: 0 10px 50px 10px;
+	height: 650px;
+
+}
+
+.main-content {
+
+	margin: 0 0 50px 0;
+}
+
+
+.border-right {
+	border-right: 1px solid #123123;
+
+}
+
+.border-left {
+	border-left: 1px solid #123123;
+
+}
+
+.border-top {
+	border-top: 1px solid #ff7a73;
+
+}
+
+.border-bottom {
+	border-bottom: 1px solid #ff7a7;
+
+}
+
+.sm-bar {
+	width: 500px;
+	background-color: #000;
+}
+
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+}
+
+
+/* Multi Device Media Queries*/
+
+
+@media (min-width: 320px) {
+
+	.navbar-default .navbar-nav > li > a {
+		padding: 0 10px;
+	}
+	.jumbotron {
+		background-image: url('../images/mobile-london1.jpg');
+		min-height: 700px;
+
+	}
+	
+	.page-layout {
+		padding: 0 5px;
+		margin: 0 auto;
+	}
+	
+	.page-header h1 {
+		font-size: 30px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+	.center-heading {
+		margin: 0 auto;
+		
+	}
+
+	.center-heading h1 {
+		font-size: 45px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.main-content p {
+		text-align: justify;
+	}
+	
+	.cp-right {
+		font-size: 13px;
+		width: 300px;
+	}
+
+
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+	p, h1, h2, h3, h4, h5, h6 {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.navbar-default .navbar-nav > li > a {
+		padding: 10px;
+	}
+	
+	nav ul li img:first-child {
+	margin-right: 20px;
+}
+	
+	.page-layout {	
+		margin: 10px 10px 10px 10px;
+		padding: 20px 50px;
+	}
+	
+	.page-header h1 {
+		font-size: 50px;
+		text-align: left; 
+	}
+
+
+	.jumbotron {
+	background-image: url('../images/london11.jpg');
+  }
+
+
+  .center-heading h1 {
+	font-size: 90px;
+  }
+  
+  .cp-right {
+		font-size: 14px;
+		width: 400px;
+		
+	}
+}
+
+@media (min-width: 960px) {
+
+  
+  
+  nav ul li img:first-child {
+	margin-right: 60px;
+	}
+
+  .center-heading h1 {
+   		font-size: 110px;
+  }
+  
+  .cp-right {
+		font-size: 15px;
+		width: 500px;
+	}
+  
+}
+
+@media (min-width: 1280px) {
+	
+	footer ul li{
+	margin: 0 auto;
+	padding: 0;
+	}
+	
+}
+
+@media (min-width: 1440px) {
+	footer {
+	margin: 0 auto;
+	}
+}
+
+
+@media (min-width: 1600px) {
+	footer {
+	margin: 0 auto;
+	}
+	
+	
+}
