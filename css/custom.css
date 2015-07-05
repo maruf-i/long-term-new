@@ -39,10 +39,15 @@ p, a {
 /* Main CSS Declaration */
 
 
+.nav, .navbar-default, .navbar-nav {
+	border-radius: 0;
+	
+	
+}
 
 
 .navbar-default {
-  min-width: 100%;
+  width: 100%;
   margin: 0;
   background-color: #fff;
 }
@@ -141,7 +146,7 @@ nav ul li img:first-child {
 
 }
 
-.main-content h4 {
+.main-content h3 {
   	margin-top: 30px;
   	padding: 0;
 	color: #ff7a73;
@@ -155,6 +160,7 @@ nav ul li img:first-child {
   margin: 0;
   padding: 10px;
   line-height: 25px;
+  color: #000;
   
 
 }
@@ -182,8 +188,12 @@ nav ul li img:first-child {
 	margin: 0;
 	padding:5px 0;
 	
+}
 
+.services h2 {
 	
+	margin-bottom: 0;
+	margin-top: 40px;
 }
 
 .services p {
@@ -196,14 +206,14 @@ nav ul li img:first-child {
 
 h1.num-lg {
 	padding: 0;
-	margin: 30px 0 30px 0;
+	margin: 30px auto;
 	color: #ff7a73;
 	
 }
 
 p.text-lg {
 	font-size: 16px;
-	margin: 30px 0 30px 0;
+	margin: 30px auto;
 	border-bottom: 1px solid #aaa;
 	letter-spacing: 1px;
 }
@@ -242,23 +252,30 @@ footer ul li {
 
 }
 
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-color: #333;
+    margin-bottom: 50px;
 
-hr {
-	margin-top: -30px;	
-	
-}
+} 
 
 .cp-right {
 	width: 500px;
 	color: #656565;
 	text-transform: uppercase;
 	margin: 0 auto;
-	border-top: 1px solid #333;
+	
 	
 }
 .cp-right p {
 	letter-spacing: 1px;
-	font-size: 13px;
+	font-size: 11px;
+	line-height: 10px;
 }
 
 .heart {
@@ -354,7 +371,7 @@ hr {
 	}
 	
 	.cp-right {
-		font-size: 13px;
+		font-size: 10px;
 		width: 300px;
 	}
 
@@ -397,7 +414,7 @@ hr {
   }
   
   .cp-right {
-		font-size: 14px;
+		font-size: 11px;
 		width: 400px;
 		
 	}
@@ -421,7 +438,8 @@ hr {
   }
   
   .cp-right {
-		font-size: 15px;
+		font-size: 13px;
+		letter-spacing: 1px;
 		width: 500px;
 	}
   
